@@ -1,0 +1,242 @@
+body{
+        padding: 0;
+        margin: 0;
+}
+*{
+        list-style: none;
+        text-decoration: none;
+}
+.nav_menu{
+        width: 100%;
+        height: 90px;
+       
+        
+}
+.nav_children{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+#logo{
+font-size: 30px;
+font-weight: 700;
+font-family: Verdana;
+}
+
+.nav_list{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+}
+.hero{
+        width: 100%;
+        position: relative;
+        /* display: flex; */
+}
+.hero_image{
+        width: 100%;
+        position: relative;
+}
+#hero_inner_image{
+        width: 100%;
+}
+.hero_text{
+        position: absolute;
+        bottom: 150px;
+        right: 100px;
+        /* width:50%; */
+}
+#hero_inner_h2{
+        font-size: 80px;
+        color: tomato;
+        text-transform: uppercase;
+}
+#hero_inner_p{
+        font-size: 20px;
+        color: white;
+        font-family: Courier;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top:-60px ;
+        text-align: center;
+}
+.cloth{
+        width: 100%;
+}
+.cloth_section{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+}
+.cloth_div{
+        width: 300px;
+}
+.shop-section{
+        margin-left: 60px;
+        top: 40px;
+        position: relative;
+
+}
+.shop{
+        display: flex;
+        justify-content: spac;
+}
+.shop img{
+        width: 90%;
+        height: 100%;
+}
+.shop-quote{
+        padding-left: 40px;
+        bottom: 30px;
+        position: absolute;
+}
+.shop-quote p{
+        width: 20%;
+        font-size: 40px;
+}
+.shop-quote h4{
+        bottom: 1px;
+        position: absolute; 
+        font-weight: 100; 
+}
+.nav-product-sec{
+        top: 60px;
+        position: relative;
+}
+.nav-product{
+      display: flex;
+      justify-content: center;
+
+}
+.nav-product li{
+        font-size: 30px;
+        padding: 15px;
+       
+}
+.nav-product li a{
+        color: grey;
+}
+.nav-product-line a{
+        color: black !important;
+}
+.nav-product-line a::after{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        margin: auto;
+        background: black !important;
+        /* position: fixed; */
+        /* transition: 0.5s; */
+    }
+ .nav-product-sec ul li::after{
+        content: '';
+        display: block;
+        width: 0%;
+        height: 2px;
+        margin: auto;
+        background: black !important;
+        transition: 0.5s;
+}
+
+.nav-product-sec ul li:hover::after{
+    width: 100%;
+} 
+.crop-top-sec{
+top: 90px;
+position: relative;
+margin-left: 70px;
+}
+.crop-top-row{
+        display: flex;
+
+}
+
+.crop-top-row img{
+        /* width: 60%; */
+}
+.crop-img1{
+        width: 88%;
+
+}
+.crop-img2{
+        width: 88%;
+        height: 70%;
+
+}
+.crop-img3{
+        width: 88%;
+        height: 70%;
+
+}
+.crop-img4{
+        width: 88%;
+
+}
+.crop-price-content{
+        bottom: 10px;
+        position: relative;  
+}
+.crop-price-content h6{
+bottom: 10px;
+position: relative;
+}
+.crop-price-content p{
+        font-size: 16px;
+}
+
+.load{
+        text-align: center;
+        top: 80px;
+        position: relative;
+}
+.load h6{
+        color: gray;
+}
+.load img{
+        width: 3%;
+        bottom: 20px;
+        position: relative;
+
+}
+.fashion-sec{
+        top: 100px;
+        position: relative;
+}
+.fashion-sec-content{
+        display: flex;
+}
+.fashion-img1{
+        width: 100%; 
+}
+.fashion-content{
+        margin-left: 140px;
+        bottom: 140px;
+        font-size: 32px;
+        color: #fff;
+        position: absolute;
+        text-align: c;
+}
+.fashion-content2{
+        margin-left: 190px;
+        bottom: 80px;
+        font-size: 32px;
+        position: absolute;
+        color: #fff;
+
+}
+.fashion-content2 p{
+        margin-left: 70px;
+
+        bottom: 40px;
+        position: relative;
+        font-size: 16px;
+
+}
