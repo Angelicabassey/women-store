@@ -218,7 +218,7 @@ position: relative;
 }
 .fashion-content{
         margin-left: 140px;
-        bottom: 140px;
+        bottom: 90px;
         font-size: 32px;
         color: #fff;
         position: absolute;
@@ -239,4 +239,78 @@ position: relative;
         position: relative;
         font-size: 16px;
 
+}
+.footer-sec{
+        top: 200px;
+        position: relative;
+        margin-left: 40px;
+}
+.footer-container{
+        display: flex;
+        justify-content: space-around;
+}
+.footer-content{
+        font-size: 14px;
+        line-height: 30px;
+}
+.footer-content-size{
+        font-size: 12px;
+        line-height: 50px;
+
+}
+.letter-input{
+        border: 0px !important;
+  
+}
+.letter-input:hover{
+        border: 0px !important;
+  
+}
+.subscribe{
+        /* margin-top: 200px !important;
+         */
+         right: 140px;
+         position: absolute;
+}
+.subscribe a{
+        color: black;
+}
+.email-line{
+        border: 1px solid;
+        width: 500px;
+}
+.footer2{
+        margin: 70px;
+        top: 300px;
+        position: relative;
+}
+.footer2-container{
+        display: flex;
+        justify-content: space-between;
+}
+.footer2-content{
+        display: flex;
+        gap: 30px;
+        font-size: 12px;
+}
+.social2{
+        top: 4px;
+        position: relative;
+}
+.social3{
+        bottom: 6px;
+        position: relative;
+}
+.footer3{
+        top: 260px;
+        position: relative;
+}
+.footer3-sec{
+        display: flex;
+        justify-content: space-between;
+        top: 20px;
+        position: relative;
+}
+.footer3-sec h5{
+        color: gray;
 }
